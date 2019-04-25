@@ -1,0 +1,18 @@
+{
+  "name": "3d",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "trickstival",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack -w"
+  },
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  },
+  "dependencies": {
+    "three": "^0.104.0",
+    "three-obj-loader": "^1.1.3"
+  }
+}
