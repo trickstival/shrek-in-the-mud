@@ -18,3 +18,10 @@ export const shrekPool = ({ cube }) => {
     }
     currentDirection = 'left'
 }
+
+export const shrekRotation = ({ shrek }) => {
+    if (!shrek) {
+        return
+    }
+    shrek.rotation.y += .01
+}
